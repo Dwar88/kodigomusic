@@ -1,0 +1,29 @@
+/* src/styles/globals.css */
+
+:root {
+  --primary-color: #1DB954; /* Verde Spotify */
+  --secondary-color: #282828; /* Gris oscuro Spotify */
+  --tertiary-color: #B3B3B3; /* Gris claro */
+  --background-color: #121212; /* Negro */
+  --text-color: #FFFFFF; /* Blanco */
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+a {
+  color: var(--tertiary-color);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--text-color);
+}
